@@ -1,0 +1,67 @@
+algoritmo "bin"
+var
+    n:inteiro
+    r:caractere
+Inicio
+    escreva("n: ")
+        leia(n)
+    se (n = 0) ou (n = 1) entao
+         escreval("                    lqkySuLLi111111111ixu-                     ")
+         escreval("                   !RRCCCCufL*11111111tLIX1                    ")
+         escreval("                   m2C2CuuFuTJ1111111*ltLuGS!                  ")
+         escreval("                 'H6CC2uuuuCjv1111111c7l7IGdR2-                ")
+         escreval("                .GWCCCCuuuuuus111111*tvv7l6RRRGr               ")
+         escreval("              !e%%RZyCuuuuuuuj1111*lllvvIISRRRqGC.             ")
+         escreval("            rbOUEEhSeuuuuuuuuu*1*t7l7l7llI5RRb0Eqr          ")
+         escreval("         .rSKEEEhk2Cuujjuuuuuus1JlT7llTTTT2RRq0XGo             ")
+         escreval("      ;Jk6EEEEhkyCuuuuITjuuuuuu*1lTTl7TIIIy$b#GSKH.            ")
+         escreval("   _lZGEEEEEEZVyCuuuuux7vTxuuuut1*lll7TIII2GbdGS6R^            ")
+         escreval("  ^ggQg#EZ55X32FuuuujxxsIvvvsuuu*1t777TIItF$dH6S6%1          ")
+         escreval("   vgQQ%2Fu2SyFuuuujYxsIITvlIxuuvr1*LvTITijGHEXPR%!            ")
+         escreval("    %gg%nFuukCuuuuujxsIllTTvvtIxc*lxsL*L*1I$mSG%%z-            ")
+         escreval("    !ggg2FujSujjuujxsTv7fIc*it*uuIgg%RfL1rv66uX@@g'            ")
+         escreval("     %gQ6uIluItIjvsIITsf*t*1yg2rxgW%b;C2yS*r%@@@M!           ")
+         escreval("   .1D%RghILic**vLvTI7ctlL*ug@&*16g%Rs-;V%%Rrcg@@@@@I          ")
+         escreval("r^1EGRgRRghstL*1111*JLtzi2%@@MQ1J%g%X^ r0%%v1HMM@@@@@R.        ")
+         escreval("ssssu5GR$RW0uL*1111111t$M@@@@M%*IWW%u~!5%%j*2Q@@@@@@@@M!       ")
+         escreval("11cTsYxu6R$R%gg%&@@@MMM@@@@@@MgcZggR*!2W%usR@@@@@@@@@@@@S.     ")
+         escreval("rrr1iLLLcIE%RR%DGkyG@@@@@@@@@@MuGBghrjg%5dM@@@@@@M@@@%r")
+         escreval("rrrrr1iLLJru%%ORR%gRuC%@@@@@@@@0gMg1Ig&gM@@@@@@@@@MM&2'        ")
+         escreval("rrrrrr1Jl7J*TR%%RR%%g%nsR@@@@@@OMM4vBMM@@@@@@@@@@@MggRk1,      ")
+         escreval("$IrrrJLLLtiLLvG%%%q%WgQ%GR@@@@@gM&u&M@@@@@@@@@@@M%RmHD5s!.     ")
+         escreval("TE8C1*7liLLLLLtyR%g%gNgQQR6M@@@@@OM@@@@@@@@@@@MR066kkr:        ")
+         escreval("vLI6%y*JzvvcLcztlP%QBQgggWO6%M@@@g@@@@@@@@@@@%6kFuS%M5         ")
+         escreval("tvvLlmgEL1itzivIsss5R&&ggggg%GHQ@@@@@@@M@@M%kusssO&BR%t -      ")
+         escreval("%GClLLuhRPz1JtcLtIsssCbgBQggQQBReR@@@@@@@%bUSussuB&&%bRs!_.    ")
+         escreval("SbWg$olIjue5uzJtzctIsssuZ8%gBgW%%@@@@@@Q%MBg&MB%%&&O%RGRvrr,   ")
+         escreval("kkk6%g&%KExssj2us*LttvlxuxF6GRR@@@@@@@%Q%R0SVSUR%g%$%%OG%8%%!  ")
+         escreval("uuuuu4RR8%%2LLLLICu*r***ujsu255h%&&&&66VeFujxYsuun26SGKhR%%%G  ")
+         escreval("")
+         escreval("")
+         escreval("")
+         escreval("")
+       escreva("C � idiota? Em seu palha�o, piadista, engra�adao, rei do humor, Mr com�dia. Por favor algu�m circo, pq tem um idota fazendo stand-up aqui.")
+    fimse
+    se (n % 2 = 0) entao
+       enquanto n <> 0 faca
+           se (n % 2 = 0) entao
+              r <- "0" + r
+              n <- n \ 2
+           senao entao
+              r <- "1" + r
+              n <- n \ 2
+           fimse
+        fimenquanto
+    senao
+       enquanto n <> 1 faca
+           se (n % 2 = 0) entao
+              r <- "0" + r
+              n <- n \ 2
+           senao entao
+              r <- "1" + r
+              n <- n \ 2
+           fimse
+        fimenquanto
+    fimse
+    escreva(r)
+fimalgoritmo
