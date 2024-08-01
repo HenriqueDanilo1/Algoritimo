@@ -9,6 +9,6 @@ Inicio
       j <- j*1.03
       c <- c*1.02
       i <- i+1
-   ate (j>c) fimenquanto
-   escreva("Em ", i, " anos o paÌs A ter· mais habitantes que o paÌs B.")
+   ate (j>c) fimrepita
+   escreva("Em ", i, " anos o pa√≠s A ter√° mais habitantes que o pa√≠s B.")
 Fimalgoritmo
