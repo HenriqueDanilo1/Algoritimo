@@ -1,9 +1,8 @@
 Algoritmo "q4"
-
 Var
 s:real
 Inicio
-escreva("Quantas maçãs deseja comprar? ")
+escreva("Quantas maÃ§Ã£s deseja comprar? ")
    leia(s)
 se s >= 12 entao
    s <- s*0.25
