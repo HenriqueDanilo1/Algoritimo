@@ -1,4 +1,4 @@
-Algoritmo "8-papainoelgordo"
+Algoritmo "q8"
 Var
    i, n, d:inteiro
 Inicio
@@ -13,8 +13,8 @@ Inicio
       fimse
    fimpara
    se (d=2) entao
-      escreva(n, " È primo.")
+      escreva(n, " √© primo.")
    senao
-      escreva(n, " n„o È primo.")
+      escreva(n, " n√£o √© primo.")
    fimse
 Fimalgoritmo
