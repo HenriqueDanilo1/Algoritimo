@@ -1,30 +1,28 @@
-algoritmo "q8"
-var
-n:inteiro
-l:real
+Algoritmo "q8"
+Var
+   n:inteiro
+   l:real
 Inicio
-escreva("Digite o numero de lados de um polÌgono regular: ")
+   escreva("Digite o numero de lados de um pol√≠gono regular: ")
    leia(n)
-se (n > 2) e (n < 6) entao
-   escreva("Digite a medida do lado do triangulo (em cm): ")
-      leia(l)
+   escreva("Digite a medida do lado do pol√≠gono (em cm): ")
+   leia(l)
    se n = 3 entao
       l <- 0.43*(l*l)
-      escreva("TRI¬NGULO, ", l, "cm≤.")
+      escreva("TRI√ÇNGULO, ", l, "cm¬≤.")
    fimse
    se n = 4 entao
       l <- l*l
-      escreva("QUADRADO, ", l, "cm≤.")
+      escreva("QUADRADO, ", l, "cm¬≤.")
    fimse
    se n = 5 entao
       l <- 1.72*(l*l)
-      escreva("PENT¡GONO, ", l, "cm≤.")
+      escreva("PENT√ÅGONO, ", l, "cm¬≤.")
    fimse
-fimse
-se n<3 entao
-   escreva("N√O … UM POLÕGONO")
-fimse
-se n>5 entao
-   escreva("POLÕGONO N√O IDENTIFICADO")
-fimse
-fimalgoritmo
+   se n<3 entao
+      escreva("N√ÉO √â UM POL√çGONO")
+   fimse
+   se n>5 entao
+      escreva("POL√çGONO N√ÉO IDENTIFICADO")
+   fimse
+Fimalgoritmo
