@@ -1,8 +1,8 @@
-Algoritmo "5-papainoelgordo"
+Algoritmo "q5"
 Var
    n, i:inteiro
 Inicio
-   escreva("Os números ímpares entre 100 e 300 são: ")
+   escreva("Os nÃºmeros Ã­mpares entre 100 e 300 sÃ£o: ")
    para i de 101 ate 300 passo 2 faca
       se (i=299) entao
          escreva(i, ".")
