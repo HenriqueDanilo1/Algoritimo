@@ -1,11 +1,11 @@
-Algoritmo "2-papainoelgordo"
+Algoritmo "q2"
 Var
    i, n:inteiro
 Inicio
-   escreva("Digite um número: ")
+   escreva("Digite um nÃºmero: ")
    leia(n)
-   escreval("A tabuada do ", n, " é: ")
+   escreval("A tabuada do ", n, " Ã©: ")
    para i de 1 ate 10 faca
-      escreval(i, " x 5: ", n*i)
+      escreval(i, " x ", n, ": ", n*i)
    fimpara
 Fimalgoritmo
