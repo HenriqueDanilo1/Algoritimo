@@ -20,7 +20,4 @@ Inicio
          l <- 1.72*(l*l)
          escreva("PENTÁGONO, ", l, "cm².")
       fimse
-   senao
-      escreva("Não foi achado no banco de dados, use a internet (nerd face)!")
-   fimse
 Fimalgoritmo
