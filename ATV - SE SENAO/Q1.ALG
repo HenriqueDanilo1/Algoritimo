@@ -1,19 +1,17 @@
 Algoritmo "q1"
-
 Var
-i, an, d:real
-
+   i, an, d:inteiro
 Inicio
-escreva("Qual ano estamos? ")
+   escreva("Qual ano estamos? ")
    leia(d)
-escreva("Qual ano você nasceu? ")
+   escreva("Qual ano vocÃª nasceu? ")
    leia(i)
-escreval("Você já fez aniversário esse ano?")
-escreval("Digite S para sim / N para não.")
+   escreval("VocÃª jÃ¡ fez aniversÃ¡rio esse ano?")
+   escreva("Digite 1 para sim / 0 para nÃ£o: ")
    leia(an)
-i <- d-i
-se an = "N" entao
-   i <- i-1
-fimse
-escreva(i)
+   i <- d-i
+   se an = "0" entao
+      i <- i-1
+   fimse
+   escreva("VocÃª tem ", i, " anos.")
 Fimalgoritmo
