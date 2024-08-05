@@ -1,24 +1,24 @@
-Algoritmo "11-papainoelgordo"
+Algoritmo "q11"
 Var
    i, ii, f, fs:inteiro
    s, ss, sss:real
 Inicio
    para i de 1 ate 200 faca
-      escreva("Qual o seu salário atual? ")
+      escreva("Qual o seu salÃ¡rio atual? ")
       leia(s)
-      escreva("Quantos filhos você tem? ")
+      escreva("Quantos filhos vocÃª tem? ")
       leia(f)
       ss <- ss+s
       fs <- fs+f
-      se (s>sss) então
+      se (s>sss) entÃ£o
          sss <- s
       fimse
       se (s<=150) entao
          ii <- ii + 1
       fimse
    fimpara
-   escreval("A média de filhos foi de ", (fs/200), " por pessoa.")
-   escreval("A média salarial foi de R$", (ss/200), " por pessoa.")
-   escreval("O maior salário foi R$", sss)
-   escreval("A porcentagem de pessoas com salário até R$150,00 foi de", (ii/2), "%.")
+   escreval("A mÃ©dia de filhos foi de ", (fs/200), " por pessoa.")
+   escreval("A mÃ©dia salarial foi de R$", (ss/200), " por pessoa.")
+   escreval("O maior salÃ¡rio foi R$", sss)
+   escreval("A porcentagem de pessoas com salÃ¡rio atÃ© R$150,00 foi de", (ii/2), "%.")
 Fimalgoritmo
