@@ -1,14 +1,14 @@
-Algoritmo "10-papainoelgordo"
+Algoritmo "q10"
 Var
    c, i:inteiro
    v, t, p, a:real
 Inicio
    para i de 1 ate 15 faca
-      escreva("Qual o valor da translação? R$ ")
+      escreva("Qual o valor da translaÃ§Ã£o? R$ ")
       leia(v)
-      escreva("Digite '0' para usar o código V e '1' para usar o código P: ")
+      escreva("Digite '0' para usar o cÃ³digo V e '1' para usar o cÃ³digo P: ")
       leia(c)
-      se(c=0) então
+      se(c=0) entÃ£o
          a <- a + v
       senao
          p <- p + v
