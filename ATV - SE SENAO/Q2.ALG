@@ -1,25 +1,23 @@
 Algoritmo "q2"
-
 Var
-i, an, d:real
-
+   i, an, d:real
 Inicio
-escreva("Qual ano estamos? ")
+   escreva("Qual ano estamos? ")
    leia(d)
-escreva("Qual ano você nasceu? ")
+   escreva("Qual ano vocÃª nasceu? ")
    leia(i)
-i <- d-i
-se i <= 16 entao
-   escreval("Você já fez aniversário esse ano?")
-   escreval("Digite 1 para sim e 0 para não.")
+   i <- d-i
+   se i <= 16 entao
+      escreval("VocÃª jÃ¡ fez aniversÃ¡rio esse ano?")
+      escreval("Digite 1 para sim e 0 para nÃ£o.")
       leia(an)
-   se an = 0 entao
-      i <- i-1
+      se an = 0 entao
+         i <- i-1
+      fimse
    fimse
-fimse
-se i >= 16 entao
-   escreva("Pode votar fi.")
-senao entao
-      escreva("Sai daqui fi, conversa de adulto.")
-fimse
+   se i >= 16 entao
+      escreva("JÃ¡ pode votar.")
+   senao entao
+      escreva("Na sua Ã©poca eu tava comendo terra.")
+   fimse
 fimalgoritmo
