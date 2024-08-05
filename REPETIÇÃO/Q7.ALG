@@ -1,14 +1,14 @@
-Algoritmo "7-papainoelgordo"
+Algoritmo "q7"
 Var
    i:inteiro
-   j, c:real
+   a, b:real
 Inicio
-   c <- 7000000
-   j <- 5000000
+   a <- 5000000
+   b <- 7000000
    repita
-      j <- j*1.03
-      c <- c*1.02
+      a <- a*1.03
+      b <- b*1.02
       i <- i+1
-   ate (j>c) fimrepita
+   ate (a>b) fimrepita
    escreva("Em ", i, " anos o país A terá mais habitantes que o país B.")
 Fimalgoritmo
