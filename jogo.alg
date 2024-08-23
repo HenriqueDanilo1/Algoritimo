@@ -2,7 +2,7 @@ Algoritmo "jogu"
 Var
 nada, desistir, nome, direita, esquerda, result, dpp, alt:caracter
 Inicio
-escreval("Press start to continue in portuguese, if you wanna play in english, remenber *I DONT C A R E *")
+escreval("Press start to continue in portuguese, if you wanna play in english, remember *I DONT C A R E *")
 leia(nada)
 escreval("Starting")
 escreval("                    lqkySuLLi111111111ixu-                     ")
